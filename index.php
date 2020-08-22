@@ -20,7 +20,7 @@
                         echo "<h3 class='fail'>Domain Already Registered!</h3>";
                     }
                     else {
-                        echo '<h3 class="success">Hurry, your domain is available!, you can register it.</h3><br/>
+                        echo '<h3 class="success">Hurry, your domain is available! You can register it.</h3><br/>
         <h2><a href="https://api.whatsapp.com/send?phone=2348103171902&text=I want to buy *'.$domain.'* domain name " style="color: red; text-decoration: none;"> Talk to our sales team now</a></h2> ';
 
                     }

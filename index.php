@@ -17,7 +17,7 @@
                 if(isset($_GET['domain'])){
                     $domain = $_GET['domain'];
                      if ($domain == '') {
-                        echo "<h3 class='fail'>No Domain Name Inserted!</h3>";
+                        echo "<h3 class='fail'>Sorry! No Domain Name Inserted!</h3>";
                     } else {
                     if ( gethostbyname($domain) != $domain ) {
                         echo "<h3 class='fail'>Domain Already Registered!</h3>";

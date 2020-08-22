@@ -21,7 +21,7 @@
                     }
                     else {
                         echo "<h3 class='success'>Hurry, your domain is available!, you can register it.</h3><br/>
-        <a href=''>Talk to our sales team now</a> ";
+        <a href='' class='success'>Talk to our sales team now</a> ";
 
                     }
                 }

@@ -16,6 +16,9 @@
                 error_reporting(0);
                 if(isset($_GET['domain'])){
                     $domain = $_GET['domain'];
+                     if ($domain == '') {
+                        echo "<h3 class='fail'>No Domain Name Inserted!</h3>";
+                    } else {
                     if ( gethostbyname($domain) != $domain ) {
                         echo "<h3 class='fail'>Domain Already Registered!</h3>";
                     }
@@ -24,6 +27,7 @@
         <h2><a href="https://api.whatsapp.com/send?phone=2348103171902&text=I want to buy *'.$domain.'* domain name " style="color: red; text-decoration: none;"> Talk to our sales team now</a></h2> ';
 
                     }
+                }
                 }
             ?>
         </div>

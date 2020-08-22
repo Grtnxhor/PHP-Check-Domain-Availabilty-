@@ -20,12 +20,14 @@
                         echo "<h3 class='fail'>Domain Already Registered!</h3>";
                     }
                     else {
-                        echo "<h3 class='success'>Hurry, your domain is available!, you can register it.</h3>";
+                        echo "<h3 class='success'>Hurry, your domain is available!, you can register it.</h3><br/>
+        <a href=''>Talk to our sales team now</a> ";
+
                     }
                 }
             ?>
         </div>
-
+        <p>Powered by <a href="https://DotEightInc.com"> DotEightInc</a></p>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"/>
         <style type="text/css">
             body, h2, h3 {
